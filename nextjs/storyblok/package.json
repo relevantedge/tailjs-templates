@@ -1,0 +1,29 @@
+{
+  "name": "tailjs-nextjs-storyblok",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@storyblok/react": "^3.0.11",
+    "@tailjs/client": "0.36.1-canary.2",
+    "@tailjs/engine": "0.36.1-canary.2",
+    "@tailjs/next": "0.36.1-canary.2",
+    "@tailjs/react": "0.36.1-canary.2",
+    "next": "14.2.6",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
